@@ -135,7 +135,7 @@ export function multiplyAnyArray(dynamicArray) { //eslint-disable-line
     for(let product of dynamicArray) {
         dynamicArrMult = multiply(dynamicArrMult, product)[0];
     }
-    return [dynamicArrMult, `The numbers ${dynamicArray} have a product of ${dynamicArrMult}.`]
+    return [dynamicArrMult, `The numbers ${dynamicArray} have a product of ${dynamicArrMult}.`];
 }
 
 // Once you get the test passing, do an a-c-p cycle and synchronize the code between GitHub and your laptop. 
